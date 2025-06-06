@@ -29,3 +29,15 @@
     -> Write: Write the Java Program using JDK
     -> Compile: Compile the Java Program using JDK(javac)
     -> Run: Using JVM (part of JRE), run the byte code.
+
+6th June
+========
+
+    --> Variables
+
+        -> Variables are names of memory locations
+        -> Variables are used to store Data
+        -> Variables will be processed(read/update/delete) using programs
+
+    -> Variables Syntax
+        -> datatype variable_Name = value;
