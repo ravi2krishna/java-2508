@@ -1,0 +1,31 @@
+4th June
+==========
+
+--> Install Java (JDK) 21 LTS
+    > java --version 
+    > java -version (older)
+
+    > javac
+
+--> Install VS CODE (IDE)
+    > Easy Code Management
+
+--> We need class with body to begin with java program
+    -> main method is must for running any java program
+
+    -> Syntax:
+        public static void main(String[] args) {
+
+        }
+
+        -> public - access specifier
+        -> static - keyword for indicating no need of OBJECT
+        -> void - keyword for indicating no retrun value
+        -> main - method name
+        -> (String[] args) - method argument 
+        -> { } - method body
+
+--> Order of Working:
+    -> Write: Write the Java Program using JDK
+    -> Compile: Compile the Java Program using JDK(javac)
+    -> Run: Using JVM (part of JRE), run the byte code.
