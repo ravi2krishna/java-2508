@@ -41,3 +41,28 @@
 
     -> Variables Syntax
         -> datatype variable_Name = value;
+
+    --> Data Types
+
+        -> Data Types define the Type of data and size for the data.
+
+        -> Data Types Classification
+            -> Primitive Data Types
+            -> Non-Primitive Data Types (Reference Data Types)
+
+        -> Primitive Data Types
+            -> We Have 8 Primitive Data Types
+
+                1: byte
+                2: short
+                3: int
+                4: long
+                5: float
+                6: double
+                7: char
+                8: boolean
+
+    
+
+
+
