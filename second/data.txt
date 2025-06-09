@@ -1,0 +1,19 @@
+Student
+=======
+
+    -> Name
+    -> ID
+    -> Email
+    -> Phone 
+    -> CourseJoined
+    -> etc
+
+
+    ->  studentID       --> int
+        studentName     --> String
+        studentAge      --> byte 
+        studentGender   --> char
+        studentRating   --> float (3.5)
+        isInstructor    --> boolean
+        courseName      --> String
+        courseID        --> short
