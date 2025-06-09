@@ -97,9 +97,13 @@
 
             -> SMALL To BIG (WIDENING)
 
+            -> Handled by Java Compiler
+
         -> Type Casting: Converting one datatype to another datatype MANUALLY/EXPLICITLY by developer    
 
             -> DATA LOSS MIGHT OCCUR --> Type Casting is considered NOT SAFE
 
             -> BIG To SMALL (NARROWING)
-            
+
+            -> Handled by developer
+                -> specify the data type (parantheses/datatype)
