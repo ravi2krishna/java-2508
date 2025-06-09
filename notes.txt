@@ -63,6 +63,19 @@
                 8: boolean
 
     
+9th June
+========
+
+    -> Declaration & Initialization
+
+        -> Declaration: Creat  ion of variable with datatype
+            -> int number;
+
+        -> Initialization: Assigning a value to variable
+            -> number = 10;
+
+        -> Previous Session
+            -> int number = 10; // Declaration & Initialization
 
 
 
