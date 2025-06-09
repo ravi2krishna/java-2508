@@ -78,4 +78,14 @@
             -> int number = 10; // Declaration & Initialization
 
 
+    -> Concatenation
+
+        -> Comibining two or more strings together
+        -> Comibining other datatypes with strings
+
+        -> Concatenation Operator (+)
+            -> Strings
+        -> Arithmetic Operator (+) 
+            -> numeric operands
+
 
