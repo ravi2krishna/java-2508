@@ -107,3 +107,25 @@
 
             -> Handled by developer
                 -> specify the data type (parantheses/datatype)
+
+11th June
+========
+
+    -> Operators In Java
+
+        -> What is it ?
+
+            -> Special Symbols that would perform operations/calculations on Variables & Values
+
+        -> Why we need it ?
+
+            -> Perform calculations like Arithmetic, Logical, Comparisions etc
+
+        -> Types Of Operators
+
+            -> Arithmetic
+            -> Increment / Decrement
+            -> Assignment 
+            -> Comparision / Relational    
+            -> Logical 
+            -> Bitwise
