@@ -38,5 +38,14 @@ public class Operators {
         num+= 5; // incrment by 5 points --> custom indexs
         System.out.println("Addition Assignment: " +num);
 
+        // Comparision (boolean -> true/false)
+        int x = 15;
+        int y = 15;
+        boolean isGreater = x > y;
+        System.out.println("Is Greater: "+isGreater);
+
+        boolean isequal = x == y;
+        System.out.println("Is Equal: "+isequal);
+
     }
 }

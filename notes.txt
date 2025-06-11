@@ -131,6 +131,18 @@
                 -> a + 5 = a 
                 -> a += 5 (concise form)
                 -> Arithmetic + - * / % (applicable)
-            -> Comparision / Relational    
+                -> = 
+                -> +=
+                -> -=
+                -> *=
+                -> /=
+                -> == (equality)
+            -> Comparision / Relational
+                -> == 
+                -> !=     
+                -> >
+                -> <
+                -> >=
+                -> <=
             -> Logical 
             -> Bitwise
