@@ -123,8 +123,10 @@
 
         -> Types Of Operators
 
-            -> Arithmetic
-            -> Increment / Decrement
+            -> Arithmetic + - * / %
+            -> Increment / Decrement ++ / --
+                -> pre-increment / Decrement
+                -> post-increment / Decrement
             -> Assignment 
             -> Comparision / Relational    
             -> Logical 
