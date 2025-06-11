@@ -56,5 +56,37 @@ public class Operators {
         boolean resultNOT = x > y; // T -> F
         System.out.println("Logical NOT: "+ !resultNOT);
 
+        // Bitwise ops 
+        int a1 = 5; // 0101
+        int b1 = 3; // 0011
+                    
+        int r1 = a1 & b1 ;  // 0001
+        System.out.println("Bitwise AND "+r1);
+
+        int r2 = a1 | b1 ; // 0111
+        System.out.println("Bitwise OR "+r2);
+
+        int r3 = a1 ^ b1 ; // 0110
+        System.out.println("Bitwise OR "+r3);
+
+        int r4 = ~ a1 ; // 1010
+        System.out.println("Bitwise OR "+r4);
+
+        // 3 -> 0000000000000011
+        // 3<<2 --> 0000000000001100 == 0000000000001100
+        // 3<<1 --> 0000000000000110 == 0000000000000110
+        // 3<<3 --> 0000000000011000 == 0000000000011000
+        // Left Shift -> Add those many zeros filling left side
+        System.out.println(3<<2);
+        System.out.println(3<<1);
+        System.out.println(3<<3);
+
+        // 3>>2 --> 0000000000000000 == 0000000000000000
+        // 3>>1 --> 0000000000000001 == 0000000000000001
+        // 3>>3 --> 0000000000000000  == 0000000000000000 
+        System.out.println(3>>2);
+        System.out.println(3>>1);
+        System.out.println(3>>3);
+
     }
 }
