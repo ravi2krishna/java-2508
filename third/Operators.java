@@ -39,13 +39,22 @@ public class Operators {
         System.out.println("Addition Assignment: " +num);
 
         // Comparision (boolean -> true/false)
-        int x = 15;
-        int y = 15;
+        int x = 7;
+        int y = 5;
+        int b = 14;
+        int c = 9;
         boolean isGreater = x > y;
         System.out.println("Is Greater: "+isGreater);
 
         boolean isequal = x == y;
         System.out.println("Is Equal: "+isequal);
+
+        // Logical Ops (boolean -> true/false)
+        boolean resultAND = x > y && b<c; // T && F -> F
+        System.out.println("Logical AND: "+resultAND);
+
+        boolean resultNOT = x > y; // T -> F
+        System.out.println("Logical NOT: "+ !resultNOT);
 
     }
 }

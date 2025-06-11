@@ -144,5 +144,8 @@
                 -> <
                 -> >=
                 -> <=
-            -> Logical 
+            -> Logical (combine multiple conditions) 
+                -> && (AND)
+                -> || (OR)
+                -> !  (NOT)
             -> Bitwise
