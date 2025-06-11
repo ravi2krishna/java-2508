@@ -29,7 +29,14 @@ public class Operators {
         System.out.println("A++ Value: "+ a++); // post
         System.out.println("Updated A Value: "+a);
 
-        // Try Out with - Deccrement
+        // Try Out with - Decrement
+
+        // Assignment Ops
+        int num = 10;
+        num+= 10; // num = num + 10
+        num+= 2; // incrment by 2 points
+        num+= 5; // incrment by 5 points --> custom indexs
+        System.out.println("Addition Assignment: " +num);
 
     }
 }
