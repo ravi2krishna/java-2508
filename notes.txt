@@ -155,3 +155,36 @@
                 -> ~ (NOT) -> Inverts all the bits 
                 -> << (LEFT SHIFT) --> shifts the bits to left, filling with zeros 
                 -> >> (RIGHT SHIFT) --> shifts the bits to right, preserving the bits 
+
+13th June
+==========
+
+    -> Control Statements 
+
+        -> Control Statements are used for CONTROLLING THE FLOW OF EXECUTION
+
+        -> We have three categories of Control Statements
+
+            1 - Decision Making Statements (Conditional)
+            2 - Looping Statements (Iteration)
+            3 - Branching Statements (Jump)
+
+        -> Decision Making Statements / Conditionals
+            1 - if Statement --> Check only one condition
+            2 - if else Statement --> Check Two conditions   
+            3 - Nested else if Statement --> Check Multiple conditions(more than two)      
+            4 - Switch Statement --> Check Multiple conditions(more than two)      
+            5 - Ternary Operator(concise form of if-else) 
+
+        -> Looping Statements (Iteration)
+            1 - for loop    
+            2 - while loop
+            3 - do-while loop
+
+        ->  Branching Statements (Jump)
+            1 - break
+            2 - continue
+            3 - return
+               
+
+
