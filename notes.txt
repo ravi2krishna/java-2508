@@ -182,9 +182,65 @@
             3 - do-while loop
 
         ->  Branching Statements (Jump)
-            1 - break
-            2 - continue
-            3 - return
-               
+            1 - break -> come out of loop
+            2 - continue -> skip the loop at current condition/Iteration
+            3 - return -> exits from method, returns a value
+
+
+        -> if Syntax
+            
+            if(condition) {
+                Statements
+            }
+
+         -> if-else Syntax
+            
+            if(condition) {
+                Statements
+            } else {
+                Statements
+            } 
+
+        -> Ternary Operator Syntax
+           variable = (condition) ? value_if_true:value_if_false;       
+
+        -> nested else if (else if ladder)
+            if(condition) {
+                Statements
+            } else if {
+                Statements
+            } else if {
+                Statements
+            } .
+              .
+              .  
+            else {
+
+            }
+
+        -> switch Statement 
+           switch(expression) {
+            case value1:
+            Statements
+            break;
+
+            case value2:
+            Statements
+            break;
+
+            .
+            .
+            .
+
+            default:
+            Statements
+            break;
+
+           }
+
+        -> switch fall through condition
+
+        -> new switch
+            -> : Arrow Operator (Later can be used in Lambda Expressions)
 
 
