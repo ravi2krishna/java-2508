@@ -242,5 +242,3 @@
 
         -> new switch
             -> : Arrow Operator (Later can be used in Lambda Expressions)
-
-
