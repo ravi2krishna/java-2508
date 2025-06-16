@@ -258,6 +258,10 @@
             -> Ideal for situations, where you already know in ADVANCE, how many times you
                 want to do a task.
 
+            -> for (Initialization, condition, increment/Decrement)  {
+                    // Statements
+                }   
+
         -> While Loop
 
             -> Ideal for situations, where you don't know in ADVANCE, how many times you
