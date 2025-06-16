@@ -242,3 +242,30 @@
 
         -> new switch
             -> : Arrow Operator (Later can be used in Lambda Expressions)
+
+
+16th June - LOOPS
+=================
+
+    -> Loop : Loops are used to EXECUTE block of CODE --> REPEATEDLY --> Based On CONDITITON
+
+        -> When to use Loops: To Perform/Automate REPETITIVE TASKS
+
+    -> Types Of Loops
+
+        -> For Loop
+
+            -> Ideal for situations, where you already know in ADVANCE, how many times you
+                want to do a task.
+
+        -> While Loop
+
+            -> Ideal for situations, where you don't know in ADVANCE, how many times you
+                want to do a task.
+
+        -> Do-While Loop
+
+            -> Same as while loop, but runs the code AT LEAST ONCE, before checking the CONDITITON
+
+        -> NOTE: All loops consists of Initialization, Condition & Increment/Decrement
+
