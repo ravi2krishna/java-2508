@@ -267,6 +267,12 @@
             -> Ideal for situations, where you don't know in ADVANCE, how many times you
                 want to do a task.
 
+            -> while (condition) {
+                Initialization
+                Statements
+                increment/Decrement
+            }   
+
         -> Do-While Loop
 
             -> Same as while loop, but runs the code AT LEAST ONCE, before checking the CONDITITON
