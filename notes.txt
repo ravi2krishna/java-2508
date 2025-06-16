@@ -300,5 +300,10 @@
             -> next(): Read the next token (word).
             -> hasNext(): Checks if there is another input available.  
 
-        ->      
+    -> TASK -> Check Attendance Status: (Conditionals)     
+
+    -> TASK Fix below issues 
+        -> Why Student name is not being taken
+        -> Instead of taking a character like (y/n), take the whole word like yes or no YES / NO 
+            and ask Student to continue or not
 
