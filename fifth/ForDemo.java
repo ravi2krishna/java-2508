@@ -9,6 +9,11 @@ public class ForDemo {
         // fill 5 water bottles
         for(int i=1;i<=5;i++) {
             System.out.println("Filling Water Bottle: "+i);
+
+            // fill only upto 2 bottles, we got only few people
+            if (i==2) {
+                break;
+            }
         }
     }
 }
