@@ -277,5 +277,10 @@
 
             -> Same as while loop, but runs the code AT LEAST ONCE, before checking the CONDITITON
 
+            -> do {
+                   Statements
+                } while (condition)
+              
+
         -> NOTE: All loops consists of Initialization, Condition & Increment/Decrement
 
