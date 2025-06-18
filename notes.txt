@@ -342,3 +342,35 @@
             -> Polymorphism
             -> Abstraction
 
+        -> What is an Object ?
+            -> Instance of a Class
+            -> TV is an Object
+                -> Object Data - Brand, Size, Model, DisplayType etc
+                -> Object Behaviours - WatchMovies, Play Games, Play Sound etc
+            -> Why should i create an object ? 
+                -> To allocate memory
+            -> To allocate memory, do we have any other approach, apart from creating object ?
+                -> we use static keyword
+
+        -> What is a Class ?
+            -> Blueprint Of an Object
+
+            -> Why should i create a Class ? 
+                -> To group similar/common kind of Data & Behaviours in one place i.e class
+
+        -> Example
+            -> TV is Class { Data & Behaviours }
+               String tvBrand
+               String tvModel 
+               int tvSize
+
+            -> KodadkTV is Object 
+                tvBrand for KodadkTV is Kodak
+                tvModel for KodadkTV is KDK-43-KIOP
+                tvSize for KodadkTV is 43
+
+            -> LgTV is Object   
+
+            -> SonyTV is Object   
+
+            
