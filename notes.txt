@@ -352,11 +352,20 @@
             -> To allocate memory, do we have any other approach, apart from creating object ?
                 -> we use static keyword
 
+            -> Syntax:
+                ClassName objectName = new ClassName(); 
+                   
+
         -> What is a Class ?
             -> Blueprint Of an Object
 
             -> Why should i create a Class ? 
                 -> To group similar/common kind of Data & Behaviours in one place i.e class
+
+            -> Syntax:
+                class ClassName {
+                    
+                }     
 
         -> Example
             -> TV is Class { Data & Behaviours }
@@ -382,4 +391,9 @@
             -> Why should i create a Method ? 
                 -> To do a task   
 
+            -> Syntax:
+                access_modifier void/returnType methodName() {
+
+                }
+                
             
