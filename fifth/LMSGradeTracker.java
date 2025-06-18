@@ -11,6 +11,7 @@ public class LMSGradeTracker {
         int studentID = scanner.nextInt();
 
         System.out.println("Enter Name: ");
+        scanner.nextLine(); // read the new line
         String studentName = scanner.nextLine();
 
         double attendance = 0;

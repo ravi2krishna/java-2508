@@ -303,7 +303,19 @@
     -> TASK -> Check Attendance Status: (Conditionals)     
 
     -> TASK Fix below issues 
-        -> Why Student name is not being taken
+        -> Why Student name is not being taken (new line is being used as Student Name)
+                -> Read new line using nextLine()
         -> Instead of taking a character like (y/n), take the whole word like yes or no YES / NO 
             and ask Student to continue or not
+                -> String continueInput = "yes"
+                -> while (continueInput.equals("yes") || continueInput.equals("YES") || continueInput.equals("Yes"))
+
+18th June - LOOPS
+=================
+
+    -> Classic issues when using Scanner Class Methods
+
+    -> When switching between nextInt() / nextDouble() and nextLine()
+
+    -> new line is represented using \n
 
