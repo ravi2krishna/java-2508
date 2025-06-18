@@ -371,6 +371,15 @@
 
             -> LgTV is Object   
 
-            -> SonyTV is Object   
+            -> SonyTV is Object 
+
+        -> What is an Method ?   
+            -> A block of code that performs a task
+
+            -> Inside a class what represents a method ? 
+                -> Behaviour
+
+            -> Why should i create a Method ? 
+                -> To do a task   
 
             
