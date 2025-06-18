@@ -55,5 +55,6 @@ public class LMSGradeTracker {
         System.out.println("Average Score: "+avgScore);
         System.out.println("Yor Performance: "+performance);
 
+        scanner.close();
     }
 }
