@@ -329,3 +329,16 @@
 
             -> Functional Oriented
 
+    -> Object Oriented Programming
+
+        -> We use classes & Objects, to design a program which will use some data & behaviour to solve real world problems
+
+        -> OOPS Concepts (Java, Python, JS, C# etc)
+
+            -> Classes
+            -> Objects
+            -> Inheritance
+            -> Encapsulation
+            -> Polymorphism
+            -> Abstraction
+
