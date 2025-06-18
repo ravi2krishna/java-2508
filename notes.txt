@@ -318,3 +318,14 @@
     -> When switching between nextInt() / nextDouble() and nextLine()
 
     -> new line is represented using \n
+
+    -> Programming paradigms
+
+        -> Imperative: Focus is on HOW TO DO SOMETHING -> Java, Python, JS etc
+
+            -> Object Oriented
+
+        -> Declarative: Focus is on WHAT TO DO  -> SQL, NO-SQL, HTML, CSS etc
+
+            -> Functional Oriented
+
