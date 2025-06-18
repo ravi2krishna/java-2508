@@ -318,4 +318,3 @@
     -> When switching between nextInt() / nextDouble() and nextLine()
 
     -> new line is represented using \n
-
