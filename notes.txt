@@ -399,3 +399,14 @@
         -> TASK : Implement CAR EMI CALCULATION
 
         -> TASK : Implement LMS Project 5 
+
+20th June - Methods
+===================
+
+    -> Syntax:
+
+        access_modifier static/non-static void/returnType methodName(parameteres....) throw Excpetions {
+            return values;
+        }
+
+        
