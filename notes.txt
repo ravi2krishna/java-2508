@@ -310,7 +310,7 @@
                 -> String continueInput = "yes"
                 -> while (continueInput.equals("yes") || continueInput.equals("YES") || continueInput.equals("Yes"))
 
-18th June - LOOPS
+18th June - OOPS
 =================
 
     -> Classic issues when using Scanner Class Methods
