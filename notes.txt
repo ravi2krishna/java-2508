@@ -411,3 +411,56 @@
 
     -> TASK : Based On Project 4 apply the average score as sorce for performanceScoreCredits()
         
+23rd June - Constructors
+========================
+
+    -> What are Methods ?
+
+        -> Block of code to perform TASK
+    
+    -> What are Constructors ?
+
+        -> Block of code to perform INITILIZATION OF DEFAULT VALUES FOR OBJECTS
+
+    -> How do you call methods ?
+
+        -> Create Object(obj) -> obj.method();
+
+    ->  How do you call Constructor ?
+
+        -> Whenever you create an Object, Constructor is called AUTOMATICALLY
+        -> No need to call Constructor EXPLICITLY or Constructor are called IMPLICITLY
+
+    -> Rules for Constructors (Unlike Methods)
+
+        -> Name of the Constructor, should be SAME as CLASS NAME
+
+        -> No RETURN TYPE not even VOID allowed
+
+        -> Calling Constructors is not required
+
+    -> When we already have methods, why Constructors ?
+
+        -> To Initialize default values
+
+        -> Overloading Flexibility
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
