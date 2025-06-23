@@ -445,9 +445,30 @@
 
         -> Overloading Flexibility
 
+    -> Types Of Constructors
+
+        -> Default Constructor(No-Arg / Non-parameterized)
+
+            -> ClassName() { }
+
+        -> parameterized Constructor
+
+            -> ClassName(int id) { }
 
 
+        -> When creating an object if the Constructor has parameteres, then its must to create
+            Constructor with those parameteres
 
+        -> When creating an object if the Constructor has parameteres, and you trying to create
+            an object without parameteres, then creating default Constructor is MUST
+
+    -> this keyword
+
+        -> this keyword is used to refer CURRENT CLASS OBJECT
+
+        -> To avoid ambugity between local variables and instance variables, we can use this
+    
+        -> To differentaite between local variables and instance variables, we can use this
 
 
 
