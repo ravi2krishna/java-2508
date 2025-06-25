@@ -511,12 +511,28 @@
 
                 -> If you go beyond the size we get Exceptions (ArrayIndexOutOfBoundExcpetion)    
 
-                -> All the elements in an array should be of SAME DATA TYPE        
+                -> All the elements in an array should be of SAME DATA TYPE    
+
+                -> [1 2 3 4]    
 
             -> Multi Dimensional Array
 
+                -> Multi Dimensional Arrays have both X & Y Axis, unlike Single Dimensional Arrays
+                    which has only X Axis
 
+                 -> [1 2 3 4]
+                    [5 6 7 8]
 
+                -> Syntax:
+                    datatype [][] variable_Name = new datatype [rows][columns];
+
+                    int [][] twoDArray = new int [3][3];
+                    int [][][] threeDArray = new int [3][3][3];
+
+                    NOTE: if rows and columns are equal we call them as Multi Dimensional Arrays
+
+                    NOTE: if rows and columns are not equal we call them as Jagged Arrays
+                        int [][] jaggedArray = new int [2][5];
 
 
 
