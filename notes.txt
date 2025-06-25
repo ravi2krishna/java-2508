@@ -486,6 +486,38 @@
 
     -> this() used to call a Constructor inside another Constructor of same class.
 
+    -> Arrays
+
+        -> Variable : Store data with only one Value
+
+        -> Array : Store data with MULTIPLE VALUES
+
+        -> Is java 100 % Object Orineted ?
+            int x = 10; // java is not 100 % Object Orineted
+
+            Int x = new Int(10); // java 100 % Object Orineted, BUT IT DOESN'T SUPPORT
+
+        -> Types Of Arrays 
+
+            -> Single Dimensional Array
+
+                -> Syntax:
+                    datatype [] variable_Name = new datatype [size];
+
+                    NOTE: Size is FIXED in arrays, you cannot EXPAND nor SHRINK
+
+                -> Index : index helps you access or assign data inside an Array
+                           index starts from 0
+
+                -> If you go beyond the size we get Exceptions (ArrayIndexOutOfBoundExcpetion)    
+
+                -> All the elements in an array should be of SAME DATA TYPE        
+
+            -> Multi Dimensional Array
+
+
+
+
 
 
 
