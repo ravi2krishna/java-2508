@@ -479,6 +479,13 @@
             -> Constructor Overloading is used, when creating OBJECTS with VARYING INITILIZATIONS
 
 
+25th June - Constructors - LMS
+==============================
+
+    -> this() --> Constructor call
+
+    -> this() used to call a Constructor inside another Constructor of same class.
+
 
 
 
