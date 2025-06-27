@@ -551,7 +551,40 @@
         -> Strings as LITERALS
 
             -> Strings can serve as a datatype and also as a class, which is UNIQUE Behaviour
+
+        -> String Concatenation
+
+            -> Using + to combine multiple strings    
     
+        -> Different Ways to Create Strings in Java
+
+            -> Using String Literals
+                
+                String name = "Hello";
+
+                NOTE: When we use Literals, we are Assigning same memory block, if the content is 
+                same
+
+            -> Using new keyword
+
+                String email = new String ("ravi2krishna@gmail.com"); 
+
+                NOTE: When we use new keyword, everytime a new memory block assigned, regardless the
+                content is 
+                same or not.
+
+            -> When using Primitive like int, float etc == does compare values    
+
+            -> When using Strings == does compares memory addressess
+
+            -> Compare the values of Strings, then use equals()
+
+            -> String Pool / String Constant Pool
+
+                -> An address pool where common string literals are stored and given same memory address
+                
+
+
 
 
 
