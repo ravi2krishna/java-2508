@@ -540,6 +540,17 @@
 
     -> LAB For Arrays
 
+    -> Strings (package - ten)
+
+        -> String - Sequence Of Characters, which is a NON-PRIMITIVE Data type.
+
+        -> Strings are MOST WIDELY USED datatypes in Java / Other Programming Languages.
+
+        -> Strings are IMMUTABLE in nature, IMMUTABLE(CANNOT CHANGE ONCE CREATED)
+
+        -> Strings as LITERALS
+
+            -> Strings can serve as a datatype and also as a class, which is UNIQUE Behaviour
     
 
 
