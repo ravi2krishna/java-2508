@@ -19,13 +19,8 @@ public class Student {
     int finalCredits;
     int trainerRatings;
 
-    // Take 5 Subject Scores --> NO ARRAYS (MANUAL)
-    int subject1;
-    int subject2;
-    int subject3;
-    int subject4;
-    int subject5;
-
+    // Take 5 Subject Scores --> USE ARRAYS (Dynamic)
+    int [] subjectScores;
 
     // Set constructor for Student -> empty object to assign rating for trainer
     public Student(){
@@ -84,15 +79,21 @@ public class Student {
 
     // calculate avg score --> NO ARRAYS (MANUAL)
     public int calculateAvgScore() {
-        System.out.println("Enter Scores for 5 Subjects: ");
-        subject1 = sc.nextInt();
-        subject2 = sc.nextInt();
-        subject3 = sc.nextInt();
-        subject4 = sc.nextInt();
-        subject5 = sc.nextInt();
+        System.out.println("Enter Number Of Subjects: ");
+        int numSubjects = sc.nextInt();
 
-        int averageScore = (subject1+subject2+subject3+subject4+subject5) / 5;
+        // init array with numSubjects
+        subjectScores = new int[numSubjects];
+        
+        int totalScores = 0;
 
+        for (int i=0; i<subjectScores.length; i++) {
+            System.out.println("Enter Score For Subject: "+(i+1));
+            subjectScores[i] = sc.nextInt();
+            totalScores += subjectScores[i]; 
+        }
+
+        int averageScore = (totalScores) / subjectScores.length;
         return averageScore;
 
     }
@@ -110,7 +111,8 @@ public class Student {
 
     // calculate final achievement credits
     public String achievementStatus(){
-        finalCredits = attendanceCredits + performanceCredits;
+        int averageScore = calculateAvgScore();
+        finalCredits = performanceScoreCredits(averageScore) + sessionsAttendedCredits();
         if (finalCredits>=10) {
             return "GOLD";
         } else if (finalCredits>=8) {
