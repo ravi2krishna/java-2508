@@ -597,10 +597,33 @@
 
         -> We can improve PERFORMANCE
 
-        -> 
+    -> To overcome above issues we can use  String Buffer & String Builder
 
+        -> When we do manipulations/changes on String Buffer & String Builder, we don't create
+        new object every time, like in Strings.
 
+        -> String is like Pen & Paper 
 
+        -> String Buffer & String Builder is like Marker & WhiteBoard
+
+    -> Comparison
+
+                        Can modify          Creates new object ?              When To Use ?
+
+    -> Strings              NO                    YES                          NO CHANGES    
+
+    -> String Buffer        YES                    NO                          MANY CHANGES
+
+    -> String Builder       YES                    NO                          MANY CHANGES 
+
+    -> Performance          SLOW(String)          SLOW                         FAST 
+                                            (Due To Synchronization)        (Due To NO Synchronization)
+                                             (String Buffer)                    (String Builders)
+                                             (Multi Threaded)                   (Single Threaded)  
+
+    -> Time taken using Strings: 72 ms
+    -> Time taken using StringBuilder: 3 ms
+    -> Time taken using StringBuffer : 0 ms        
 
 
 
