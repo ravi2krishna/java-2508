@@ -591,8 +591,13 @@
 
     -> Strings are IMMUTABLE in nature, IMMUTABLE(CANNOT CHANGE ONCE CREATED)
 
-    -> 
+    -> Why we need Strings to be Mutable ?
 
+        -> You want to update.
+
+        -> We can improve PERFORMANCE
+
+        -> 
 
 
 
