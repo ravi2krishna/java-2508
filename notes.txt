@@ -584,6 +584,15 @@
                 -> An address pool where common string literals are stored and given same memory address
                 
 
+30th June - String - String Buffer - String Builder
+===================================================
+
+    -> Strings (package - ten)
+
+    -> Strings are IMMUTABLE in nature, IMMUTABLE(CANNOT CHANGE ONCE CREATED)
+
+    -> 
+
 
 
 
