@@ -700,3 +700,23 @@
             -> Used for Initializing Non-Static/Instance Variables (Constructors) 
 
             -> Constructors Internally use Non-Static Block only for Initialization
+
+
+    -> Inheritance
+
+        -> Inheritance - Genes / Properties(land) 
+
+            -> If yor parent has some Traits/Properties, you may or may not inherit those Traits/Properties
+
+            -> In Programming Context, Inheritance means acquiring Properties and Behaviors from 
+            existing Parent Classes.
+
+            -> Why To Inherit ?
+
+                -> REUSE (Properties and Behaviors)
+
+             -> When To Inherit ?
+
+                -> When the Relationship is POSITIVE (Additional Benefits)
+
+            -> When Inheritance is applied, Child can get Parent Features, but NOT VICE VERSA    
