@@ -673,4 +673,13 @@
 
         -> They are UNIQUE to each Object
 
+    -> Static Variables
+
+        -> Variables defined inside the class, but outside the method using static keyword
+
+        -> They are COMMON/STATIC to each Object 
+
+        -> While Accessing Static Variables, Recommended to use ClassName.variable_Name
+
+            
 
