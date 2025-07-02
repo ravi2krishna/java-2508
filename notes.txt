@@ -667,7 +667,7 @@
 2nd July - Static & Non-Static
 ===============================
 
-    -> Non-Static Variables (Instance Variables)
+    -> Non-Static Variables (Instance Variables) (package - eleven)
 
         -> Variables defined inside the class, but outside the method without static keyword
 
