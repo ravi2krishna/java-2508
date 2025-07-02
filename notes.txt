@@ -681,5 +681,22 @@
 
         -> While Accessing Static Variables, Recommended to use ClassName.variable_Name
 
-            
 
+    -> Static & Non-Static BLOCKS
+
+        -> Static Blocks
+
+            -> Static Block in java is a block of code, gets executed when CLASS IS LOADED into memory by JVM
+
+            -> Used for Initializing Static Variables
+
+            -> Configuration data that should load even before main method execution
+
+
+        -> Non-Static BLOCKS
+
+            -> Non-Static Block in java is a block of code, gets executed when OBJECT IS CREATED
+
+            -> Used for Initializing Non-Static/Instance Variables (Constructors) 
+
+            -> Constructors Internally use Non-Static Block only for Initialization
