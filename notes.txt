@@ -626,9 +626,51 @@
     -> Time taken using StringBuffer : 0 ms        
 
 
+    -> Static & Non-Static
+
+        -> To understand from Memory Management Perspective We need to understand static & non-static
+
+        -> Here will understand when to static and when to use non-static
+
+        -> So in class we can have Variables, Methods, Constructors & BLOCKS
+
+        -> The Concept of static came, with a basic design principal of running java program
+
+            -> What is must to run java program ?
+
+                -> main method is must
+                -> type of main method ? 
+                    -> static
+
+        -> How many ways can we allocate memory ?   
+
+            -> Using new keyword i.e object creation
+
+            -> Using static keyword    
+
+        -> NOTE: Whenever java sees static keyword, in your code, JVM will IMPLICITLY assign MEMORY 
+            without OBJECT CREATION
+
+        -> Method Area
+
+            -> Will Store Class Level Data(Static) static methods & static variables    
+
+            -> Here Memory allocation is done, when we use "static" keyword
+
+        -> Heap Area
+
+            -> Will Store Object Data (Non-Statics)
+
+            -> Here Memory allocation is done, when we use "new" keyword
 
 
+2nd July - Static & Non-Static
+===============================
 
+    -> Non-Static Variables (Instance Variables)
 
+        -> Variables defined inside the class, but outside the method without static keyword
+
+        -> They are UNIQUE to each Object
 
 
