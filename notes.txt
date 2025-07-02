@@ -719,4 +719,18 @@
 
                 -> When the Relationship is POSITIVE (Additional Benefits)
 
-            -> When Inheritance is applied, Child can get Parent Features, but NOT VICE VERSA    
+            -> When Inheritance is applied, Child can get Parent Features, but NOT VICE VERSA  
+
+            -> If you want to create a Relationship between classes, we need to use "extends" keyword
+            and also "implements" keyword
+
+        -> Types Of Inheritance
+
+              -> Based on the requirement, you can apply different types of Inheritance techniques
+
+                -> Single Inheritance
+                -> Multi Level Inheritance
+                -> Hierarchial Inheritance  
+                -> Multiple Inheritance (*) --> Supports only for Interfaces
+                -> Hybrid Inheritance (Optional)
+                
