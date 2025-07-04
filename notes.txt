@@ -749,3 +749,12 @@
 
         -> A -> B -> C ... (Class A extends Class B extends Class C .....)   
 
+    -> Hierarchial Inheritance  
+
+        -> Multiple Classes inherit from Same Superclass
+
+           |---> B 
+        -> A --> C
+           | --> D 
+
+           
