@@ -733,4 +733,14 @@
                 -> Hierarchial Inheritance  
                 -> Multiple Inheritance (*) --> Supports only for Interfaces
                 -> Hybrid Inheritance (Optional)
-                
+
+4th July - Inheritance Types
+============================
+
+    -> Single Inheritance
+
+        -> A class inherits from a Single Class(Single Parent)
+
+        -> A -> B (Class A extends Class B)
+
+        
