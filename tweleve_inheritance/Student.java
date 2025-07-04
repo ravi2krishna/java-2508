@@ -35,37 +35,11 @@ public class Student extends Person {
     }
 
     // Set constructor for Student to set ID & Name
-    public Student(int studentID, String studentName){
-        // calling another constructor using this() 
-        // this(101,"Ravi",888888,20);
-    }
-
-    // Set constructor for Student to set ID & Name
     public Student(int studentID, String studentName, int studentMobileNumber, int studentAge, String studentDescription, double courseFee){
-        this.studentID = studentID;
-        this.studentName = studentName;
-        this.studentMobileNumber = studentMobileNumber;
-        this.studentAge = studentAge;
+        super(studentID, studentName, studentAge, studentMobileNumber);
         this.studentDescription = studentDescription;
         this.courseFee = courseFee;
     }
-
-    // display student info --> basic details --> hover
-    public void studentInfo() {
-        System.out.println("===============STUDENT DETAILS===============");
-        System.out.println("Student ID: "+studentID);
-        System.out.println("Student NAME: "+studentName);
-    }
-
-    // display student info --> complete details --> click -> show profile
-    public void studentCompleteInfo() {
-        System.out.println("===============STUDENT COMPLETE DETAILS===============");
-        System.out.println("Student ID: "+studentID);
-        System.out.println("Student NAME: "+studentName);
-        System.out.println("Student MOBILE: "+studentMobileNumber);
-        System.out.println("Student AGE: "+studentAge);
-    }
-
 
     // Take Input
     Scanner sc = new Scanner(System.in);
