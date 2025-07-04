@@ -780,3 +780,27 @@
 
             -> Parent Class Methods, Variables, Constructors
 
+
+
+    -> Encapsulation
+
+        -> Hiding Data (Variables)
+
+        -> To achieve Encapsulation we need to know about Access Modifiers
+
+        -> Access Modifiers
+
+            -> Access Modifiers are keywords which will control VISIBILITY/ACCESS of classes, methods
+             variables
+
+            -> List Of Access Modifiers
+
+                -> public  
+                -> private
+                -> protected 
+                -> default
+
+            -> If you understand Access Modifiers from Variables Perspective, the same is applied
+            for methods, Constructors and classes, with below conditions
+
+                NOTE: Top level classes can only be public and default
