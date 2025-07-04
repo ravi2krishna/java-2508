@@ -1,6 +1,14 @@
-// package tweleve_inheritance;
+package tweleve_inheritance;
 
-// public class Test extends Guest, VideoAdmin {
+// Multiple Inheritance
+public class Test implements Watchable,Addable {
 
-    
-// }
+    public void watchVideos(){
+
+    };
+
+    public void addVideos(){
+
+    };
+
+}

@@ -765,5 +765,12 @@
            |-C-|
 
         -> This Features is not supported by Java with Classes, but Supports using INTERFACES 
-        
-          
+
+        -> Interface
+
+            -> An Interface Contains Abstract Methods i.e methods without implementation(body)
+
+                -> Abstract Method : public void methodName();     
+
+            -> To achieve Multiple Inheritance using Interfaces we use "implements" keyword
+
