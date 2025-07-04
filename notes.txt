@@ -774,3 +774,9 @@
 
             -> To achieve Multiple Inheritance using Interfaces we use "implements" keyword
 
+    -> super keyword
+
+        -> super keyword is used to refer parent class attributes
+
+            -> Parent Class Methods, Variables, Constructors
+
