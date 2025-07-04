@@ -743,4 +743,9 @@
 
         -> A -> B (Class A extends Class B)
 
-        
+    -> Multi Level Inheritance
+
+        ->  A class inherits from another class, which in turn inherits from another class
+
+        -> A -> B -> C ... (Class A extends Class B extends Class C .....)   
+
