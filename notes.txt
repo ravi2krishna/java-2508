@@ -757,4 +757,13 @@
         -> A --> C
            | --> D 
 
-           
+    -> Multiple Inheritance  
+
+        -> One class inherits from multiple parents
+
+        -> A   B 
+           |-C-|
+
+        -> This Features is not supported by Java with Classes, but Supports using INTERFACES 
+        
+          
