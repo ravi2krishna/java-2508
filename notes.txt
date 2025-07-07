@@ -804,3 +804,19 @@
             for methods, Constructors and classes, with below conditions
 
                 NOTE: Top level classes can only be public and default
+
+7th July - Encapsulation
+========================
+
+    -> Access Modifiers with Classes
+
+        -> Top level classes Supports only
+
+            -> public
+            -> default (no modifier) : We should not use default explicitly
+
+        -> Inner classes support all access modifiers
+
+        
+
+
