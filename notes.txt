@@ -817,6 +817,40 @@
 
         -> Inner classes support all access modifiers
 
+
+    -> Encapsulation
+
+        -> Hiding Data (Variables)
+
+        -> Encapsulation describes an ability of an object to hide its data
+
+        -> Class is the best example for Encapsulation
+
+            -> Class holds variable & methods
         
+        -> How to hide the data ? How to enforce the data should not be accessible directly ?
 
+            -> Private access modifier, lets you access/change only within the same class
 
+            -> Once you made data private, we can only use some SPECIAL METHODS
+
+                -> Setters Methods 
+
+                    -> Set/Modify the data 
+
+                -> Getters Methods  
+
+                    -> Get/Access the data 
+
+        ->  Constructors vs Setters
+
+            -> Quick Initialization         Constructors Better      Setters need additional steps
+
+            -> Validation Checks            Not possible             Yes we can 
+
+            -> Logging / Debugging          Not possible             Yes we can 
+
+            -> Scalability                  Becomes Messy when       Clean & Maintainable   
+                                            we have lot of fields   
+
+            -> Real World Systems           Simple Projects          Enterprise Level                       
