@@ -854,3 +854,39 @@
                                             we have lot of fields   
 
             -> Real World Systems           Simple Projects          Enterprise Level                       
+
+
+9th July - Abstraction
+======================
+
+    -> Abstraction
+
+        -> Hiding Implementation (Methods)
+
+        -> To achieve Abstraction we need to know about Interfaces in through
+
+    -> Interfaces
+
+        -> OLD - Interfaces have Abstract Methods
+
+        -> New - Blueprint for a Class, Contains Abstract Methods and Constants(Data)
+
+        -> In layman terms you can consider Interface as CONTRACT between PARTIES
+
+            -> CONTRACT : Rules / Guidelines
+
+        -> In Interface if we add new Abstract methods, then all the Previously implemented
+        classes with have errors, if they don't Implement new Abstract methods.
+
+        -> From Java 8, we can provide methods(implementations) like below
+
+            -> Default methods
+
+                -> Methods that has default implementation already provided by vendor
+
+                -> Default methods are allowed only in interfaces
+
+            -> Static methods
+
+                -> Methods that belong to interface and can be called directly with Interface name
+
