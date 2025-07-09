@@ -890,3 +890,21 @@
 
                 -> Methods that belong to interface and can be called directly with Interface name
 
+
+     -> Abstract Classes
+
+        -> Abstract classes, are declared using abstract keyword
+
+        -> Abstract Classes, can have Abstract Methods and Concrete Methods
+
+        -> Before Java 8, we used abstract classes, if new implementations are added in interfaces
+
+        -> NOTE: Abstract Classes we cannot create Objects
+
+        -> If we use abstract classes, we cannot Implement like Interface
+
+        -> Use case : Abstract Classes are used when classes share common behavior and 
+        some methods require specific implementation in sub classes
+
+    
+
