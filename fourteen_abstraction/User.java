@@ -6,16 +6,13 @@ public class User {
         lenovo.usbA();
         lenovo.usbC();
         lenovo.hdmi();
-        lenovo.oledDisplay();
-        Laptop.microSD();
-
+        
         HP hp = new HP();
         hp.usbA();
         hp.usbC();
         hp.hdmi();
         hp.ethernet();
-        hp.oledDisplay();
-        Laptop.microSD();
+        
 
     }
 }
