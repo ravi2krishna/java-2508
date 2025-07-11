@@ -907,4 +907,8 @@
         some methods require specific implementation in sub classes
 
     
+11th July - Abstraction LAB
+===========================
+
+    -> Implement LMS with Abstraction
 
