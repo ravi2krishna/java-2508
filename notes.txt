@@ -912,3 +912,19 @@
 
     -> Implement LMS with Abstraction
 
+14th July - Polymorphism
+========================
+
+    -> Polymorphism enables an entity(methods), to take MULTIPLE FORMS.
+
+    -> Types Of Polymorphism
+
+        -> Compile Time Polymorphism
+
+            -> Occurs with method overloading during compile time
+
+        -> Runtime Time Polymorphism
+
+            -> Occurs with method overriding during run time
+
+            
